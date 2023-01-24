@@ -1,0 +1,14 @@
+#map {
+  max-width: 1600px;
+  height: 700px;
+  margin-top: 280px;
+}
+
+#map .background {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-image: url("../images/map.png");
+  background-repeat: no-repeat;
+}

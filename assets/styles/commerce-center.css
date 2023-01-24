@@ -1,0 +1,106 @@
+#commerce-center {
+  max-width: 1600px;
+  height: 527px;
+  margin-top: 140px;
+}
+
+#commerce-center .background {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding-bottom: 40px;
+}
+
+#commerce-center .background .violet {
+  background-color: #7e5aff;
+  position: relative;
+  flex: 37;
+}
+
+#commerce-center .background .middle {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex: 21;
+}
+
+#commerce-center .background .white {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex: 48;
+  align-items: flex-end;
+}
+
+#commerce-center .background .sphere {
+  background-image: url("../images/building.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 215px;
+  top: 57px;
+  height: 470px;
+  width: 630px;
+}
+
+#commerce-center .background .white .content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 160px;
+  width: 470px;
+  padding-right: 40px;
+}
+
+#commerce-center .background .white .content .international {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2c4058;
+}
+
+#commerce-center .background .white .content .commerce-center-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #2c4058;
+}
+
+#commerce-center .background .white .content .description {
+  margin-top: 19px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #2c4058;
+}
+
+#commerce-center .background .white .content .more-details {
+  margin-top: 41px;
+  width: 190px;
+  height: 50px;
+  border: #2c4058 1px solid;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#commerce-center .background .white .content .location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 60px;
+}
+
+#commerce-center .background .white .content .location span {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}

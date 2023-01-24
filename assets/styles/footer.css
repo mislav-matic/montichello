@@ -1,0 +1,159 @@
+#footer {
+  max-width: 1600px;
+  height: 549px;
+  position: relative;
+}
+
+#footer .background {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../images/background-footer.png");
+  background-repeat: no-repeat;
+}
+
+#footer .background .company {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer .background .company span {
+  margin-top: 41px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+#footer .background .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 160px;
+}
+
+#footer .social .social-item {
+  height: 40px;
+  width: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#footer .facebook {
+  background-image: url("../images/facebook.png");
+}
+
+#footer .twitter {
+  background-image: url("../images/twitter.png");
+}
+
+#footer .instagram {
+  background-image: url("../images/instagram.png");
+}
+
+#get-in-touch {
+  position: absolute;
+  width: 770px;
+  height: 450px;
+  right: 415px;
+  bottom: 399px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+#get-in-touch .title {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  color: #2c4058;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+#get-in-touch .title .separator {
+  width: 100px;
+  height: 0px;
+  border: 1px solid #2c4058;
+  margin: 0px;
+}
+
+#get-in-touch .title .heading {
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  color: #2c4058;
+}
+
+#get-in-touch .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#get-in-touch .content .left-pane {
+  width: 286px;
+  height: 196px;
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#get-in-touch .content .left-pane .info-item i {
+  color: #7e5aff;
+}
+
+#get-in-touch .content .left-pane .info-item span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: 10px;
+}
+
+#get-in-touch .content .right-pane {
+  width: 286px;
+  height: 196px;
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#get-in-touch .content .right-pane input {
+  border: none;
+  height: 41px;
+  border-bottom: 1px solid #2c4058;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+#get-in-touch .content .right-pane .button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#get-in-touch .content .right-pane .button {
+  border: 1px solid #2c4058;
+  padding: 12px 34px;
+  text-transform: uppercase;
+}

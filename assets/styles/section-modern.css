@@ -1,0 +1,198 @@
+#simple-modern {
+  max-width: 1600px;
+  height: 1064px;
+  background: linear-gradient(243.43deg, #7e5aff 16.9%, #55b7ff 83.27%);
+}
+
+#simple-modern .background {
+  background-image: url("../images/background-section1.png");
+  position: relative;
+  width: 100%;
+}
+
+#simple-modern .what-we-do-section {
+  height: 314px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.6;
+  background-color: white;
+}
+
+#simple-modern .what-we-do-section .what-we-do {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  color: #2c4058;
+}
+
+#simple-modern .what-we-do-section .separator {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border: 1px solid #2c4058;
+  width: 150px;
+}
+
+#simple-modern .background .dots {
+  position: absolute;
+  display: block;
+  top: 296px;
+  right: 52px;
+  left: inherit;
+}
+
+.dots .active,
+.dots .inactive {
+  height: 32px;
+  width: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 8px;
+}
+
+.dots .active {
+  background-image: url("../images/dot-active.png");
+}
+
+.dots .inactive {
+  background-image: url("../images/dot-inactive.png");
+}
+
+#simple-modern .content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#simple-modern .header {
+  height: 107px;
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#simple-modern .header .logo {
+  margin-right: 144px;
+}
+
+#simple-modern .menu {
+  width: 515px;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#simple-modern .menu .menu-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#simple-modern .social {
+  width: 160px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 110px;
+}
+
+#simple-modern .social .social-item {
+  height: 40px;
+  width: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#simple-modern .facebook {
+  background-image: url("../images/facebook.png");
+}
+
+#simple-modern .twitter {
+  background-image: url("../images/twitter.png");
+}
+
+#simple-modern .instagram {
+  background-image: url("../images/instagram.png");
+}
+
+#simple-modern .menu .menu-item .active {
+  background-image: url("../images/dot-active.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 18px;
+  height: 18px;
+}
+
+#simple-modern .menu .menu-item .inactive {
+  background-image: url("../images/dot-inactive.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 18px;
+  height: 18px;
+}
+
+#simple-modern .menu .menu-item a {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-top: 2px;
+}
+
+#simple-modern .menu .menu-item a:visited, #simple-modern .menu .menu-item a:active {
+  color: #ffffff;
+}
+
+
+#simple-modern .background .content .heading {
+  height: 420px;
+  width: 917px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 223px;
+}
+
+#simple-modern .background .content .heading .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+#simple-modern .background .content .heading .subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 40px;
+
+  letter-spacing: 0.3em;
+
+  color: #ffffff;
+}
+
+#simple-modern .background .content .heading .arrow {
+  width: 40px;
+  height: 40px;
+  background: url("../images/arrow-to-bottom.png");
+  margin-bottom: 30px;
+}
+
+.flex-spacer {
+  flex: 1;
+}
