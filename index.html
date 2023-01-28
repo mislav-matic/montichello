@@ -3,6 +3,9 @@
     <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+        <link href="https://fonts.cdnfonts.com/css/slick" rel="stylesheet">
         <link rel="stylesheet" href="./assets/styles/base.css">
         <link rel="stylesheet" href="./assets/styles/section-modern.css">
         <link rel="stylesheet" href="./assets/styles/trade-center.css">
@@ -11,9 +14,8 @@
         <link rel="stylesheet" href="./assets/styles/gallery.css">
         <link rel="stylesheet" href="./assets/styles/map.css">
         <link rel="stylesheet" href="./assets/styles/footer.css">
-        <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGcvfr0lfWcbjGl5rz09wjUvHZRUjGqQ4&callback=initMap"></script>
+        <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGcvfr0lfWcbjGl5rz09wjUvHZRUjGqQ4&callback=showMap"></script>
         <script src="./assets/scripts/index.js"></script>
-        <script src="./assets/scripts/slider.js"></script>
     </head>
     <body>
         <section id="simple-modern" class="section">
@@ -75,8 +77,7 @@
                          <div class="flex-spacer">                       
                         </div>
                      </div>
-                </div>
-               
+                </div>              
                 <div class="dots">
                    <div class="active">&nbsp;</div>
                    <div class="inactive">&nbsp;</div>
@@ -144,86 +145,81 @@
                     </span>
                 </div>
                 <div class="content">
-                    <div class="left-arrow">
-                        <img src="./assets/images/left-arrow.png" alt="Slide left" />
-                    </div>
-                    <div class="tile">
-                        <div class="photo photo1">
-
-                        </div>
-                        <div class="title">
-                            SEE THE UNMATCHED BEAUTY OF THE GREAT.
-                        </div>
-                        <div class="subtitle">
-                            Free directories: directories are perfect for customers that are searching for...
-                        </div>
-                        <div class="author">
-                            <img src="./assets/images/latest-news-author1.png" alt="Alja Brun Photo" />
-                            <div class="memento">
-                                <span class="name">
-                                    Alja Brun
-                                </span>
-                                <span class="published">
-                                    20 Jan 2020
-                                </span>
+                    <div class="slide-container">
+                        <div class="tile-container">
+                            <div class="tile">
+                                <div class="photo photo1">
+        
+                                </div>
+                                <div class="title">
+                                    SEE THE UNMATCHED BEAUTY OF THE GREAT.
+                                </div>
+                                <div class="subtitle">
+                                    Free directories: directories are perfect for customers that are searching for...
+                                </div>
+                                <div class="author">
+                                    <img src="./assets/images/latest-news-author1.png" alt="Alja Brun Photo" />
+                                    <div class="memento">
+                                        <span class="name">
+                                            Alja Brun
+                                        </span>
+                                        <span class="published">
+                                            20 Jan 2020
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tile">
-                        <div class="photo photo2">
-
-                        </div>
-                        <div class="title">
-                            EFFECTIVE ADVERTISING POINTERS.
-                        </div>
-                        <div class="subtitle">
-                            Having a home based business is a wonderful asset to your life...
-                        </div>
-                        <div class="author">
-                            <img src="./assets/images/latest-news-author2.png" alt="Alja Brun Photo" />
-                            <div class="memento">
-                                <span class="name">
-                                    Dominic Freeman
-                                </span>
-                                <span class="published">
-                                    13 Dec 2019
-                                </span>
+                        
+                        <div class="tile-container">
+                            <div class="tile">
+                                <div class="photo photo2">
+        
+                                </div>
+                                <div class="title">
+                                    EFFECTIVE ADVERTISING POINTERS.
+                                </div>
+                                <div class="subtitle">
+                                    Having a home based business is a wonderful asset to your life...
+                                </div>
+                                <div class="author">
+                                    <img src="./assets/images/latest-news-author2.png" alt="Alja Brun Photo" />
+                                    <div class="memento">
+                                        <span class="name">
+                                            Dominic Freeman
+                                        </span>
+                                        <span class="published">
+                                            13 Dec 2019
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tile">
-                        <div class="photo photo3">
-
-                        </div>
-                        <div class="title">
-                            HYPNOTIZE YOURSELF INTO THE GHOST.
-                        </div>
-                        <div class="subtitle">
-                            There are many things that are important to catalog design...
-                        </div>
-                        <div class="author">
-                            <img src="./assets/images/latest-news-author3.png" alt="Alja Brun Photo" />
-                            <div class="memento">
-                                <span class="name">
-                                    Alice Ward
-                                </span>
-                                <span class="published">
-                                    30 Nov 2019
-                                </span>
+                        
+                        <div class="tile-container">
+                            <div class="tile">
+                                <div class="photo photo3">
+        
+                                </div>
+                                <div class="title">
+                                    HYPNOTIZE YOURSELF INTO THE GHOST.
+                                </div>
+                                <div class="subtitle">
+                                    There are many things that are important to catalog design...
+                                </div>
+                                <div class="author">
+                                    <img src="./assets/images/latest-news-author3.png" alt="Alja Brun Photo" />
+                                    <div class="memento">
+                                        <span class="name">
+                                            Alice Ward
+                                        </span>
+                                        <span class="published">
+                                            30 Nov 2019
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="right-arrow">
-                        <img src="./assets/images/right-arrow.png" alt="Slide left" />
-                    </div>
-                </div>
-                <div class="dots-container">
-                    <div class="dots">
-                        <img src="./assets/images/dot-inactive.png" alt="Inactive tile" />
-                        <img src="./assets/images/dot-active.png" alt="Active tile" />
-                        <img src="./assets/images/dot-inactive.png" alt="Inactive tile" />
-                        <img src="./assets/images/dot-inactive.png" alt="Inactive tile" />
-                        <img src="./assets/images/dot-inactive.png" alt="Inactive tile" />
                     </div>
                 </div>
             </div>
@@ -320,6 +316,10 @@
                 </div>
             </div>
         </section>
-        
+       
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="./assets/scripts/slider.js"></script>
     </body>
 </html>

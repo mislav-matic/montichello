@@ -1,18 +1,17 @@
-function sliderModule() {
-  let sliderActive = 0;
+$(document).ready(function () {
+  const slideContainer = '#latest-news .slide-container';
+  $(slideContainer).slick({
+    dots: true,
+    autoplay: true,
+    slidesToShow: 1,
+    infinite: true,
+  });
 
-  let topSliders = document.querySelectorAll(
-    '#latest-news .content .tile'
+  // On before slide change
+  $(slideContainer).on(
+    'beforeChange',
+    function (event, slick, currentSlide, nextSlide) {
+      console.log(nextSlide);
+    }
   );
-
-  function shuffleSlider() {
-    topSliders[sliderActive].style.display = 'none';
-    sliderActive = (sliderActive + 1) % 3;
-    topSliders[sliderActive].style.display = 'flex';
-  }
-
-  topSliders[0].style.display = 'flex';
-  setInterval(shuffleSlider, 3000);
-}
-
-addEventListener('DOMContentLoaded', (event) => sliderModule());
+});

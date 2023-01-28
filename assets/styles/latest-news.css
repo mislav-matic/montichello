@@ -38,35 +38,32 @@
 
 #latest-news .background .content {
   margin-top: 89px;
-  height: 514px;
+  height: 518px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  height: 544px;
 }
 
-#latest-news .background .content .left-arrow {
-  width: 120px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  margin-right: 60px;
+#latest-news .background .slide-container {
+  width: 370px;
+  height: 100%
 }
 
-#latest-news .background .content .right-arrow {
-  width: 120px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 60px;
+
+#latest-news .background .content .tile-container {
+  width: 370px;
+  background-color: white;
+  height: 100%
 }
 
 #latest-news .background .content .tile {
-  width: 370px;
+  width: 100%;
   background-color: white;
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: stretch;
+  padding-bottom: 20px;
 }
 
 #latest-news .background .content .tile .photo {
@@ -155,4 +152,31 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 12px;
+    line-height: 20px;
+    color:White;
+}
+
+
+.slick-dots li.slick-active button:before {
+  color:White; 
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+
+  opacity: .75;
+  color: white;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
